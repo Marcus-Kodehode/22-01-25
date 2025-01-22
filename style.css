@@ -32,3 +32,9 @@ body {
     flex-direction: flex;
 
   }
+
+  h1  {
+    font-size: 40px;
+    border: solid gold;
+    color: whitesmoke;
+  }
