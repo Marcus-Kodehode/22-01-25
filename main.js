@@ -17,8 +17,8 @@ function makeNormal() {
 }
 
 function makeBig() {
-  img.style.height = "400px";
-  img.style.width = "400px";
+  img.style.height = "300px";
+  img.style.width = "300px";
 }
 
 console.log(img);
