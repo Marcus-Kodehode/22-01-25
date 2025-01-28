@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Definerer dokumenttypen som HTML5 -->
     <meta charset="UTF-8" />
+    <!-- Gjør nettstedet responsivt ved å sette riktig viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tittel som vises i nettleserfanen -->
     <title>Gollum choices</title>
+    <!-- Koble til en ekstern CSS-fil for stilsetting -->
     <link rel="stylesheet" href="style.css" />
-    <!-- <script defer src="main.js"></script> -->
+    <!-- Kommentar: script-link til JavaScript-filen er aktivert, sørger for at script lastes etter HTML -->
     <script defer src="./main.js"></script>
   </head>
   <body>
+    <!-- Hovedoverskrift for siden -->
     <h1>What hides behinde the buttons?</h1>
     <div>
+        <!-- Knapper som kaller JavaScript-funksjoner for interaksjon -->
         <button onclick="makeSmall()">Throw Gollum into Mt.Doom</button>
         <button onclick="makeBig()">Summon a enlarged Gollum</button>
         <button onclick="makeNormal()">Summon Gollum</button>
       </div>
+      <!-- Bildeelement med ID for å manipulere via JavaScript -->
       <img id="container" src="profilepic.jpg" alt="Et bilde" />
   </body>
 </html>
+

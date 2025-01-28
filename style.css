@@ -1,40 +1,45 @@
+/* Stiler for body-elementet */
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    gap: 100px;
-    justify-content: center;
-    align-items: center;
-    background-color: black
-  }
-  
-  /* #container {
-    height: 200px;
-    width: 200px;
-    background-color: rgb(249, 80, 212);
-  } */
-  
-  /* #container.red {
-    background-color: red;
-  } */
+  display: flex; /* Gjør body til et fleksibelt container for enklere layout */
+  min-height: 100vh; /* Sørger for at body alltid dekker hele høyden av vinduet */
+  flex-direction: column; /* Plasserer innholdet i en vertikal kolonne */
+  gap: 100px; /* Legger til mellomrom mellom elementene */
+  justify-content: center; /* Sentraliserer elementene vertikalt */
+  align-items: center; /* Sentraliserer elementene horisontalt */
+  background-color: black; /* Setter bakgrunnsfargen til svart */
+}
 
-  img {
-    height: 0;
-    width: 0;
-  }
+/* Utkommentert styling for et element med ID #container */
+/* 
+#container {
+  height: 200px; /* Høyde på container */
+  /* width: 200px; /* Bredde på container */
+  /*background-color: rgb(249, 80, 212); Setter bakgrunnsfargen til rosa */
 
-  button  {
-    font-size: 15px;
-    background-color: crimson;
-    color: black;
-    border: solid gold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-direction: flex;
+/* Utkommentert styling for en variant av #container med klassen red */
+/*
+#container.red {
+  background-color: red; /* Endrer bakgrunnsfargen til rød */
+*/
 
-  }
+/* Stiler for img-elementer */
+img {
+  height: 0; /* Starter med høyde på 0 for å skjule bildet */
+  width: 0; /* Starter med bredde på 0 for å skjule bildet */
+}
 
-  h1  {
-    font-size: 40px;
-    border: solid gold;
-    color: whitesmoke;
-  }
+/* Stiler for knappene */
+button {
+  font-size: 15px; /* Angir skriftstørrelsen for teksten på knappene */
+  background-color: crimson; /* Setter bakgrunnsfargen til mørk rød */
+  color: black; /* Angir tekstfargen til svart */
+  border: solid gold; /* Setter en gullfarget ramme rundt knappene */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Angir fontfamilien */
+}
+
+/* Stiler for h1-elementer */
+h1 {
+  font-size: 40px; /* Angir skriftstørrelsen for overskriften */
+  border: solid gold; /* Legger til en gullfarget kantlinje rundt overskriften */
+  color: whitesmoke; /* Setter teksten til en lys hvitaktig farge */
+}
